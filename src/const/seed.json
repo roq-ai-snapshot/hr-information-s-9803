@@ -1,0 +1,2772 @@
+[
+  {
+    "employee": [
+      {
+        "id": "a911edf7-0c02-4d1e-b794-4fb1c29bb9ed",
+        "employee_number": 38778,
+        "hire_date": "2023-09-27T21:13:40.210Z",
+        "termination_date": "2023-09-28T15:06:33.246Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "created_at": "2023-09-27T16:38:30.958Z",
+        "updated_at": "2023-09-28T14:01:24.354Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a87df88-313b-4560-b2bf-8768706dbc40",
+        "employee_number": 41583,
+        "hire_date": "2023-09-27T17:42:44.752Z",
+        "termination_date": "2023-09-27T23:31:58.790Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-27T18:40:25.773Z",
+        "updated_at": "2023-09-28T08:19:13.334Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c16bad48-6e60-4a75-a630-5016292d8f2c",
+        "employee_number": 42277,
+        "hire_date": "2023-09-28T14:07:04.327Z",
+        "termination_date": "2023-09-27T19:15:26.405Z",
+        "job_title": "Supervisor",
+        "department": "Finance",
+        "created_at": "2023-09-28T04:32:23.996Z",
+        "updated_at": "2023-09-27T22:35:46.001Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a437468-e209-46c3-953f-f2df519970b8",
+        "employee_number": 54111,
+        "hire_date": "2023-09-28T02:23:00.425Z",
+        "termination_date": "2023-09-27T17:40:43.789Z",
+        "job_title": "Analyst",
+        "department": "Human Resources",
+        "created_at": "2023-09-27T15:57:19.050Z",
+        "updated_at": "2023-09-28T03:09:02.311Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40552d55-395b-4a3d-b8f1-548b4f0528fb",
+        "employee_number": 40768,
+        "hire_date": "2023-09-28T10:13:12.402Z",
+        "termination_date": "2023-09-27T16:19:27.962Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "created_at": "2023-09-28T14:21:33.471Z",
+        "updated_at": "2023-09-27T15:57:26.790Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "96f16397-a5e6-435d-9088-8f0c83aa8a71",
+        "start_date": "2023-09-27T22:26:58.683Z",
+        "end_date": "2023-09-27T21:03:22.600Z",
+        "days_taken": 59439,
+        "vacation_type": "Paid Time Off",
+        "created_at": "2023-09-28T06:27:54.077Z",
+        "updated_at": "2023-09-28T11:50:10.053Z",
+        "employee_id": "6a87df88-313b-4560-b2bf-8768706dbc40"
+      },
+      {
+        "id": "73873b91-edef-47c0-8bb6-7b92dd0b9521",
+        "start_date": "2023-09-28T00:08:23.859Z",
+        "end_date": "2023-09-27T17:32:53.610Z",
+        "days_taken": 6982,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-27T22:32:33.055Z",
+        "updated_at": "2023-09-27T22:25:30.700Z",
+        "employee_id": "c16bad48-6e60-4a75-a630-5016292d8f2c"
+      },
+      {
+        "id": "c796acf4-11f4-4bb9-920b-ffc73392bfaa",
+        "start_date": "2023-09-28T02:38:57.041Z",
+        "end_date": "2023-09-27T16:58:09.336Z",
+        "days_taken": 20873,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-27T20:30:20.047Z",
+        "updated_at": "2023-09-28T05:26:27.147Z",
+        "employee_id": "a911edf7-0c02-4d1e-b794-4fb1c29bb9ed"
+      },
+      {
+        "id": "28e1a3e1-c7af-4e39-bc94-7128ec1d9c85",
+        "start_date": "2023-09-28T00:13:27.644Z",
+        "end_date": "2023-09-28T06:05:17.124Z",
+        "days_taken": 76245,
+        "vacation_type": "Parental Leave",
+        "created_at": "2023-09-28T04:51:17.166Z",
+        "updated_at": "2023-09-28T00:32:20.270Z",
+        "employee_id": "40552d55-395b-4a3d-b8f1-548b4f0528fb"
+      },
+      {
+        "id": "d1628c29-695f-4318-bbdf-39987415d5bb",
+        "start_date": "2023-09-28T08:20:27.952Z",
+        "end_date": "2023-09-27T20:58:28.036Z",
+        "days_taken": 57182,
+        "vacation_type": "Bereavement Leave",
+        "created_at": "2023-09-28T07:48:25.990Z",
+        "updated_at": "2023-09-28T03:55:05.268Z",
+        "employee_id": "a911edf7-0c02-4d1e-b794-4fb1c29bb9ed"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "7879872c-d865-4820-b53d-758312e36042",
+        "pay_date": "2023-09-27T23:44:24.127Z",
+        "gross_pay": 10052,
+        "net_pay": 15306,
+        "taxes": 39043,
+        "deductions": 38684,
+        "created_at": "2023-09-28T00:55:57.376Z",
+        "updated_at": "2023-09-27T23:23:11.335Z",
+        "employee_id": "6a87df88-313b-4560-b2bf-8768706dbc40"
+      },
+      {
+        "id": "0a6d5f31-44f5-48a0-a2cc-401d2666b33b",
+        "pay_date": "2023-09-28T05:10:15.857Z",
+        "gross_pay": 4046,
+        "net_pay": 30513,
+        "taxes": 1631,
+        "deductions": 37128,
+        "created_at": "2023-09-28T05:59:17.484Z",
+        "updated_at": "2023-09-28T07:12:27.081Z",
+        "employee_id": "c16bad48-6e60-4a75-a630-5016292d8f2c"
+      },
+      {
+        "id": "bd62c438-48a3-4239-9fbc-772c2c722144",
+        "pay_date": "2023-09-28T04:57:34.729Z",
+        "gross_pay": 29805,
+        "net_pay": 63153,
+        "taxes": 57815,
+        "deductions": 45587,
+        "created_at": "2023-09-28T06:28:51.534Z",
+        "updated_at": "2023-09-28T14:09:32.891Z",
+        "employee_id": "40552d55-395b-4a3d-b8f1-548b4f0528fb"
+      },
+      {
+        "id": "59c8f051-46d1-4efb-86f4-db651fd02608",
+        "pay_date": "2023-09-27T15:33:33.705Z",
+        "gross_pay": 26491,
+        "net_pay": 35618,
+        "taxes": 61639,
+        "deductions": 9818,
+        "created_at": "2023-09-27T16:44:51.101Z",
+        "updated_at": "2023-09-27T17:33:11.427Z",
+        "employee_id": "40552d55-395b-4a3d-b8f1-548b4f0528fb"
+      },
+      {
+        "id": "68e342ef-011e-4c22-ab79-1de857df0fda",
+        "pay_date": "2023-09-28T11:25:48.409Z",
+        "gross_pay": 5678,
+        "net_pay": 44441,
+        "taxes": 31860,
+        "deductions": 87522,
+        "created_at": "2023-09-28T03:36:32.740Z",
+        "updated_at": "2023-09-28T02:06:47.286Z",
+        "employee_id": "40552d55-395b-4a3d-b8f1-548b4f0528fb"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "b41ff515-ceae-42fb-a84c-6669735db211",
+        "business_name": "John's Bakery",
+        "business_type": "Food & Beverage",
+        "business_address": "987 Main Street",
+        "business_city": "San Francisco",
+        "business_state": "CA",
+        "business_zip_code": "94101",
+        "created_at": "2023-09-27T20:17:16.333Z",
+        "updated_at": "2023-09-28T14:40:58.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7392c96f-c7c9-4284-acaf-5d68b4ed0173",
+        "business_name": "Smith & Sons Construction",
+        "business_type": "Construction",
+        "business_address": "654 Elm Avenue",
+        "business_city": "Seattle",
+        "business_state": "WA",
+        "business_zip_code": "98101",
+        "created_at": "2023-09-28T09:29:27.352Z",
+        "updated_at": "2023-09-27T17:55:31.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fca6a75-6795-4453-b710-55667d735f4f",
+        "business_name": "Brown's Auto Repair",
+        "business_type": "Automotive",
+        "business_address": "321 Oak Lane",
+        "business_city": "Denver",
+        "business_state": "CO",
+        "business_zip_code": "80201",
+        "created_at": "2023-09-28T07:48:26.236Z",
+        "updated_at": "2023-09-28T09:04:07.747Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25df699f-a545-4e07-a059-3257203c1faa",
+        "business_name": "Jones Consulting Services",
+        "business_type": "Consulting",
+        "business_address": "789 Pine Road",
+        "business_city": "Boston",
+        "business_state": "MA",
+        "business_zip_code": "02101",
+        "created_at": "2023-09-28T04:41:17.871Z",
+        "updated_at": "2023-09-28T04:16:11.830Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e6c5d91-1f93-41a0-a5e4-5386ca998ff9",
+        "business_name": "Wilson's Flower Shop",
+        "business_type": "Retail",
+        "business_address": "456 Maple Court",
+        "business_city": "Miami",
+        "business_state": "FL",
+        "business_zip_code": "33101",
+        "created_at": "2023-09-27T21:39:22.328Z",
+        "updated_at": "2023-09-27T19:42:34.774Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "64bcb3f2-b682-49b1-9e61-9a5f1cc7166e",
+        "email": "Jameson.Beier@roq.tech",
+        "firstName": "Odessa",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90061880",
+        "tenantId": null
+      },
+      {
+        "reference": "c9507db6-887a-45d5-b1ab-c2f19f3c0ede",
+        "email": "Nora.Christiansen49@roq.tech",
+        "firstName": "Ima",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/390.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc2d97d0-da9c-4826-ab4e-ae98b3ddfac0",
+        "email": "Raven.White87@roq.tech",
+        "firstName": "Lawson",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/784.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d9cca95-5140-4424-b6df-3fe2675714f3",
+        "email": "Norris.Wyman24@roq.tech",
+        "firstName": "Maiya",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1145.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d258a493-00db-438e-adc7-b51d19a5d08a",
+        "email": "Cordell_Goyette12@roq.tech",
+        "firstName": "Andre",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/18.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "fea4d290-8301-4756-ae22-609f6c7adab0",
+        "employee_number": 67679,
+        "hire_date": "2023-09-28T03:22:05.325Z",
+        "termination_date": "2023-09-27T17:10:05.266Z",
+        "job_title": "Manager",
+        "department": "IT",
+        "created_at": "2023-09-28T03:40:50.369Z",
+        "updated_at": "2023-09-28T14:58:39.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "135cc462-3d6d-4563-b8e3-3805ea6c262e",
+        "employee_number": 36983,
+        "hire_date": "2023-09-27T17:22:37.875Z",
+        "termination_date": "2023-09-27T22:19:12.744Z",
+        "job_title": "Developer",
+        "department": "Marketing",
+        "created_at": "2023-09-27T16:53:30.611Z",
+        "updated_at": "2023-09-28T14:01:34.887Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fa20890-7600-4e6c-b005-e7e3c06100da",
+        "employee_number": 19815,
+        "hire_date": "2023-09-27T23:36:11.183Z",
+        "termination_date": "2023-09-28T03:40:32.232Z",
+        "job_title": "Sales Associate",
+        "department": "Sales",
+        "created_at": "2023-09-28T07:04:56.843Z",
+        "updated_at": "2023-09-27T22:51:39.479Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d1224c1-448a-4630-9fd8-01d884594222",
+        "employee_number": 11014,
+        "hire_date": "2023-09-28T12:34:41.929Z",
+        "termination_date": "2023-09-28T05:20:11.227Z",
+        "job_title": "HR Specialist",
+        "department": "Human Resources",
+        "created_at": "2023-09-28T06:58:36.797Z",
+        "updated_at": "2023-09-27T16:16:06.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfafa9da-1a3d-43a9-9e02-3afe0353ca10",
+        "employee_number": 70378,
+        "hire_date": "2023-09-28T04:07:08.547Z",
+        "termination_date": "2023-09-28T01:42:19.819Z",
+        "job_title": "Accountant",
+        "department": "Finance",
+        "created_at": "2023-09-28T07:44:17.535Z",
+        "updated_at": "2023-09-28T06:44:46.210Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "f116d0fb-129e-4c9d-bd42-a182e4cf15d7",
+        "start_date": "2023-09-28T00:06:55.515Z",
+        "end_date": "2023-09-28T10:47:43.172Z",
+        "days_taken": 83230,
+        "vacation_type": "Annual Leave",
+        "created_at": "2023-09-27T22:29:53.952Z",
+        "updated_at": "2023-09-28T02:36:21.500Z",
+        "employee_id": "fea4d290-8301-4756-ae22-609f6c7adab0"
+      },
+      {
+        "id": "ecb6143e-6c51-4825-a860-8021faf866ba",
+        "start_date": "2023-09-28T00:45:25.032Z",
+        "end_date": "2023-09-28T12:30:59.328Z",
+        "days_taken": 89880,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-27T17:41:55.818Z",
+        "updated_at": "2023-09-28T01:30:19.757Z",
+        "employee_id": "0d1224c1-448a-4630-9fd8-01d884594222"
+      },
+      {
+        "id": "23840373-992b-4008-b1f2-bd3a15f95e7d",
+        "start_date": "2023-09-28T02:14:38.613Z",
+        "end_date": "2023-09-27T15:42:50.121Z",
+        "days_taken": 29011,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-27T23:59:19.184Z",
+        "updated_at": "2023-09-27T23:13:02.395Z",
+        "employee_id": "cfafa9da-1a3d-43a9-9e02-3afe0353ca10"
+      },
+      {
+        "id": "d8f9c8b5-ad87-4619-8bd5-282acecd1cfd",
+        "start_date": "2023-09-28T03:08:14.477Z",
+        "end_date": "2023-09-27T23:30:25.533Z",
+        "days_taken": 34722,
+        "vacation_type": "Paternity Leave",
+        "created_at": "2023-09-27T20:48:29.243Z",
+        "updated_at": "2023-09-27T16:52:43.948Z",
+        "employee_id": "fea4d290-8301-4756-ae22-609f6c7adab0"
+      },
+      {
+        "id": "3d618bb8-7fe0-4fb3-b4f9-4b66ae325f3f",
+        "start_date": "2023-09-27T17:18:14.028Z",
+        "end_date": "2023-09-28T10:22:28.042Z",
+        "days_taken": 5423,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-28T12:38:18.602Z",
+        "updated_at": "2023-09-28T09:55:01.937Z",
+        "employee_id": "fea4d290-8301-4756-ae22-609f6c7adab0"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "a162ee0c-406d-4fd5-a28f-0854ba278fba",
+        "pay_date": "2023-09-28T13:36:58.958Z",
+        "gross_pay": 90588,
+        "net_pay": 14803,
+        "taxes": 83423,
+        "deductions": 44706,
+        "created_at": "2023-09-27T17:36:05.288Z",
+        "updated_at": "2023-09-27T16:34:56.638Z",
+        "employee_id": "0d1224c1-448a-4630-9fd8-01d884594222"
+      },
+      {
+        "id": "572a38a2-c67b-4b9d-a2ad-6c75463b258d",
+        "pay_date": "2023-09-28T03:42:51.675Z",
+        "gross_pay": 81231,
+        "net_pay": 34143,
+        "taxes": 35580,
+        "deductions": 45188,
+        "created_at": "2023-09-28T04:54:35.555Z",
+        "updated_at": "2023-09-28T12:06:07.528Z",
+        "employee_id": "cfafa9da-1a3d-43a9-9e02-3afe0353ca10"
+      },
+      {
+        "id": "f8564046-87f8-414d-973e-40ee799c04b7",
+        "pay_date": "2023-09-28T07:23:29.388Z",
+        "gross_pay": 80060,
+        "net_pay": 87673,
+        "taxes": 62136,
+        "deductions": 87183,
+        "created_at": "2023-09-28T05:27:04.409Z",
+        "updated_at": "2023-09-28T11:03:07.832Z",
+        "employee_id": "cfafa9da-1a3d-43a9-9e02-3afe0353ca10"
+      },
+      {
+        "id": "73644d8d-d59b-4b24-9aab-f89998fc2cc0",
+        "pay_date": "2023-09-28T00:35:45.288Z",
+        "gross_pay": 34864,
+        "net_pay": 70352,
+        "taxes": 84312,
+        "deductions": 5251,
+        "created_at": "2023-09-28T00:48:32.886Z",
+        "updated_at": "2023-09-28T03:44:28.083Z",
+        "employee_id": "fea4d290-8301-4756-ae22-609f6c7adab0"
+      },
+      {
+        "id": "081639cc-2ce8-49a2-b375-47508f0702d5",
+        "pay_date": "2023-09-27T23:53:49.564Z",
+        "gross_pay": 9288,
+        "net_pay": 590,
+        "taxes": 15083,
+        "deductions": 41130,
+        "created_at": "2023-09-27T19:40:33.038Z",
+        "updated_at": "2023-09-28T02:56:55.913Z",
+        "employee_id": "fea4d290-8301-4756-ae22-609f6c7adab0"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "c55aa314-1e7d-4c41-9b9e-1d944cb9e482",
+        "business_name": "John's Bakery",
+        "business_type": "Food & Beverage",
+        "business_address": "111 Baker Street",
+        "business_city": "San Francisco",
+        "business_state": "CA",
+        "business_zip_code": "94101",
+        "created_at": "2023-09-28T06:42:59.874Z",
+        "updated_at": "2023-09-28T07:21:56.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "727699ee-27c3-480e-b03c-ea4c93fda53f",
+        "business_name": "Smith & Sons Construction",
+        "business_type": "Construction",
+        "business_address": "222 Construction Avenue",
+        "business_city": "Seattle",
+        "business_state": "WA",
+        "business_zip_code": "98101",
+        "created_at": "2023-09-28T01:52:03.798Z",
+        "updated_at": "2023-09-28T00:07:03.354Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79bbf06e-68a5-4d75-a289-6ef1fa3d7289",
+        "business_name": "Brown's Auto Repair",
+        "business_type": "Automotive",
+        "business_address": "333 Auto Drive",
+        "business_city": "Denver",
+        "business_state": "CO",
+        "business_zip_code": "80202",
+        "created_at": "2023-09-28T08:38:59.238Z",
+        "updated_at": "2023-09-27T16:14:48.567Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6dac6a2-4c6c-412c-a06c-ab8deaa7181d",
+        "business_name": "Jones Law Firm",
+        "business_type": "Legal Services",
+        "business_address": "444 Law Lane",
+        "business_city": "Boston",
+        "business_state": "MA",
+        "business_zip_code": "02101",
+        "created_at": "2023-09-27T19:44:03.337Z",
+        "updated_at": "2023-09-28T14:56:40.684Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8828ed3e-3539-4c23-9832-df687ac85ec6",
+        "business_name": "Wilson's Flower Shop",
+        "business_type": "Retail",
+        "business_address": "555 Flower Boulevard",
+        "business_city": "Atlanta",
+        "business_state": "GA",
+        "business_zip_code": "30301",
+        "created_at": "2023-09-27T16:34:20.727Z",
+        "updated_at": "2023-09-28T09:10:00.740Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d23ba705-69a1-49ed-aaeb-e4f0c7df3ffb",
+        "email": "Cicero15@roq.tech",
+        "firstName": "Brandy",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84107536",
+        "tenantId": null
+      },
+      {
+        "reference": "1b062b50-e5a3-4aab-a570-79150d029acb",
+        "email": "Cleta88@roq.tech",
+        "firstName": "Moses",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42229436",
+        "tenantId": null
+      },
+      {
+        "reference": "ce74309f-af33-4410-b0dc-b9aca234e958",
+        "email": "Larry9@roq.tech",
+        "firstName": "Casimir",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40859226",
+        "tenantId": null
+      },
+      {
+        "reference": "7ff9d771-a206-4ee8-b86b-cd2bdd36298b",
+        "email": "Juvenal43@roq.tech",
+        "firstName": "Kristopher",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13971984",
+        "tenantId": null
+      },
+      {
+        "reference": "649a3dcd-3257-45aa-be1d-7ccb814de8f1",
+        "email": "Cornell59@roq.tech",
+        "firstName": "Trever",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "f20aedeb-dfba-47ce-b408-b0fe410d7ba9",
+        "employee_number": 84873,
+        "hire_date": "2023-09-28T05:58:44.271Z",
+        "termination_date": "2023-09-27T17:57:57.396Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "created_at": "2023-09-28T14:45:31.926Z",
+        "updated_at": "2023-09-27T20:47:39.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abf7a075-66e8-40b5-a552-77b80cc61aaf",
+        "employee_number": 18714,
+        "hire_date": "2023-09-28T02:03:40.718Z",
+        "termination_date": "2023-09-28T13:26:03.911Z",
+        "job_title": "Supervisor",
+        "department": "Marketing",
+        "created_at": "2023-09-28T09:21:33.545Z",
+        "updated_at": "2023-09-27T16:02:39.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bed1786c-b6d7-4297-b2d4-d980f97c4fc7",
+        "employee_number": 21768,
+        "hire_date": "2023-09-28T03:14:16.782Z",
+        "termination_date": "2023-09-28T06:50:19.659Z",
+        "job_title": "Engineer",
+        "department": "Finance",
+        "created_at": "2023-09-27T22:13:18.317Z",
+        "updated_at": "2023-09-28T03:44:35.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28e996a8-ba92-42a7-8998-bddbea5e9568",
+        "employee_number": 83434,
+        "hire_date": "2023-09-28T10:50:03.015Z",
+        "termination_date": "2023-09-27T17:04:29.166Z",
+        "job_title": "Analyst",
+        "department": "Human Resources",
+        "created_at": "2023-09-28T10:27:17.040Z",
+        "updated_at": "2023-09-28T05:55:48.329Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7f63e25-9266-49c4-8634-5d20449a49e8",
+        "employee_number": 47903,
+        "hire_date": "2023-09-28T02:29:58.797Z",
+        "termination_date": "2023-09-28T10:44:50.777Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "created_at": "2023-09-28T03:07:28.168Z",
+        "updated_at": "2023-09-27T22:49:47.460Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "b3d2d118-9c72-4a4d-94c8-4b449b950dd2",
+        "start_date": "2023-09-27T15:31:59.053Z",
+        "end_date": "2023-09-28T02:32:42.255Z",
+        "days_taken": 5096,
+        "vacation_type": "Paid Leave",
+        "created_at": "2023-09-28T08:30:50.654Z",
+        "updated_at": "2023-09-28T01:03:31.215Z",
+        "employee_id": "a7f63e25-9266-49c4-8634-5d20449a49e8"
+      },
+      {
+        "id": "15ba8dd4-07d0-4019-9cb6-4414cd0de937",
+        "start_date": "2023-09-27T21:42:22.533Z",
+        "end_date": "2023-09-28T01:41:44.006Z",
+        "days_taken": 84020,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-28T12:45:31.557Z",
+        "updated_at": "2023-09-27T21:32:20.218Z",
+        "employee_id": "abf7a075-66e8-40b5-a552-77b80cc61aaf"
+      },
+      {
+        "id": "621f7abf-eef3-4eed-9ad3-a0030a7e603b",
+        "start_date": "2023-09-28T07:41:08.152Z",
+        "end_date": "2023-09-28T00:04:19.915Z",
+        "days_taken": 77090,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-27T18:21:12.151Z",
+        "updated_at": "2023-09-28T00:26:16.348Z",
+        "employee_id": "f20aedeb-dfba-47ce-b408-b0fe410d7ba9"
+      },
+      {
+        "id": "122a3483-31f4-4403-a70e-5791cb8aa11e",
+        "start_date": "2023-09-28T13:35:41.132Z",
+        "end_date": "2023-09-28T14:07:11.302Z",
+        "days_taken": 67295,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-27T16:59:45.591Z",
+        "updated_at": "2023-09-28T02:43:56.357Z",
+        "employee_id": "28e996a8-ba92-42a7-8998-bddbea5e9568"
+      },
+      {
+        "id": "79f9a389-a48b-4a51-9ccc-b5167c2fe154",
+        "start_date": "2023-09-28T06:31:35.417Z",
+        "end_date": "2023-09-27T18:39:20.047Z",
+        "days_taken": 37334,
+        "vacation_type": "Unpaid Leave",
+        "created_at": "2023-09-28T06:12:00.196Z",
+        "updated_at": "2023-09-28T03:35:43.113Z",
+        "employee_id": "a7f63e25-9266-49c4-8634-5d20449a49e8"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "bc2f9f57-ca8d-4866-b413-777fbc28875f",
+        "pay_date": "2023-09-28T11:46:17.342Z",
+        "gross_pay": 2468,
+        "net_pay": 9715,
+        "taxes": 25959,
+        "deductions": 85148,
+        "created_at": "2023-09-27T19:28:54.652Z",
+        "updated_at": "2023-09-27T16:33:12.226Z",
+        "employee_id": "bed1786c-b6d7-4297-b2d4-d980f97c4fc7"
+      },
+      {
+        "id": "8078e96e-c54a-40bd-9cac-f5b7057e8a72",
+        "pay_date": "2023-09-27T22:59:07.639Z",
+        "gross_pay": 79189,
+        "net_pay": 38889,
+        "taxes": 18997,
+        "deductions": 60153,
+        "created_at": "2023-09-28T07:07:04.316Z",
+        "updated_at": "2023-09-27T19:22:16.803Z",
+        "employee_id": "abf7a075-66e8-40b5-a552-77b80cc61aaf"
+      },
+      {
+        "id": "c523cb3d-c2b4-410f-b9a8-dbefde08b129",
+        "pay_date": "2023-09-28T00:11:47.653Z",
+        "gross_pay": 95066,
+        "net_pay": 30255,
+        "taxes": 764,
+        "deductions": 39288,
+        "created_at": "2023-09-28T14:35:01.979Z",
+        "updated_at": "2023-09-28T12:12:10.547Z",
+        "employee_id": "abf7a075-66e8-40b5-a552-77b80cc61aaf"
+      },
+      {
+        "id": "02846cbf-d00e-4c8d-a83a-ec1743f524a4",
+        "pay_date": "2023-09-27T15:35:35.402Z",
+        "gross_pay": 43500,
+        "net_pay": 37145,
+        "taxes": 30900,
+        "deductions": 1963,
+        "created_at": "2023-09-28T14:05:21.881Z",
+        "updated_at": "2023-09-28T12:50:37.477Z",
+        "employee_id": "f20aedeb-dfba-47ce-b408-b0fe410d7ba9"
+      },
+      {
+        "id": "35e5e0f2-1d34-4503-a990-cf4c27235d24",
+        "pay_date": "2023-09-27T22:37:54.399Z",
+        "gross_pay": 17108,
+        "net_pay": 17804,
+        "taxes": 10935,
+        "deductions": 31149,
+        "created_at": "2023-09-28T14:19:10.698Z",
+        "updated_at": "2023-09-28T12:22:38.955Z",
+        "employee_id": "bed1786c-b6d7-4297-b2d4-d980f97c4fc7"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "de58718f-05c6-4847-8109-20ed1ab787b2",
+        "business_name": "ABC Restaurant",
+        "business_type": "Restaurant",
+        "business_address": "987 Main Street",
+        "business_city": "San Francisco",
+        "business_state": "CA",
+        "business_zip_code": "94101",
+        "created_at": "2023-09-27T21:56:07.377Z",
+        "updated_at": "2023-09-28T01:40:51.346Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "750c212f-a012-4d65-b15d-fab95ee4cd49",
+        "business_name": "XYZ Fitness",
+        "business_type": "Fitness Center",
+        "business_address": "654 Elm Avenue",
+        "business_city": "Seattle",
+        "business_state": "WA",
+        "business_zip_code": "98101",
+        "created_at": "2023-09-28T06:48:56.896Z",
+        "updated_at": "2023-09-28T03:53:44.902Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddbcde78-cab9-44ca-a819-a9d6a8a1b473",
+        "business_name": "123 Bakery",
+        "business_type": "Bakery",
+        "business_address": "321 Oak Lane",
+        "business_city": "Denver",
+        "business_state": "CO",
+        "business_zip_code": "80201",
+        "created_at": "2023-09-27T18:16:48.210Z",
+        "updated_at": "2023-09-27T15:16:48.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c17524dc-ef1d-4e6c-a1a5-2d166a21625b",
+        "business_name": "Acme Construction",
+        "business_type": "Construction",
+        "business_address": "789 Maple Drive",
+        "business_city": "Boston",
+        "business_state": "MA",
+        "business_zip_code": "02101",
+        "created_at": "2023-09-28T02:20:06.829Z",
+        "updated_at": "2023-09-28T09:18:03.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24934b5a-2381-47a0-b512-e3197cac47dd",
+        "business_name": "Global Consulting",
+        "business_type": "Consulting",
+        "business_address": "456 Pine Road",
+        "business_city": "Atlanta",
+        "business_state": "GA",
+        "business_zip_code": "30301",
+        "created_at": "2023-09-28T15:04:27.162Z",
+        "updated_at": "2023-09-27T22:35:58.108Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b101123d-75fe-4d37-80d3-74cd2c30bfbf",
+        "email": "Gerda.Lehner64@roq.tech",
+        "firstName": "Gayle",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/312.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "820601c8-16b6-4da5-a86b-7abfebfc5eea",
+        "email": "Bradley_Greenfelder@roq.tech",
+        "firstName": "Alden",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "30300c40-edfa-41e5-9762-78693172481e",
+        "email": "Vito.Schaefer2@roq.tech",
+        "firstName": "Luciano",
+        "lastName": "Trantow-Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74036788",
+        "tenantId": null
+      },
+      {
+        "reference": "dcc65717-81c1-4ad8-8d15-fcd45ac924d0",
+        "email": "Bart.Armstrong91@roq.tech",
+        "firstName": "Juana",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1046.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66ee0179-892a-4d71-817a-360d2291f338",
+        "email": "Brown.Berge@roq.tech",
+        "firstName": "Anastasia",
+        "lastName": "Bruen-Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99829318",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "7867d59c-e583-4548-8cd4-a77b562c5ba3",
+        "employee_number": 60992,
+        "hire_date": "2023-09-28T09:14:08.682Z",
+        "termination_date": "2023-09-28T14:28:04.014Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "created_at": "2023-09-28T06:32:22.169Z",
+        "updated_at": "2023-09-27T19:47:15.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68081cb8-0f5e-4bee-8bba-21dd426b2a1e",
+        "employee_number": 13595,
+        "hire_date": "2023-09-28T00:27:09.029Z",
+        "termination_date": "2023-09-28T08:41:33.043Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-27T15:53:32.894Z",
+        "updated_at": "2023-09-27T20:43:34.372Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15cef128-b7f5-499f-ab2b-8db59ae9dc2c",
+        "employee_number": 51951,
+        "hire_date": "2023-09-28T11:28:43.796Z",
+        "termination_date": "2023-09-28T04:21:12.236Z",
+        "job_title": "Supervisor",
+        "department": "Finance",
+        "created_at": "2023-09-28T06:13:06.533Z",
+        "updated_at": "2023-09-28T12:54:58.769Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3be842c9-e55a-4e64-b6a6-22087a21091b",
+        "employee_number": 35215,
+        "hire_date": "2023-09-28T01:11:53.563Z",
+        "termination_date": "2023-09-28T03:27:05.677Z",
+        "job_title": "Analyst",
+        "department": "Human Resources",
+        "created_at": "2023-09-28T02:28:40.339Z",
+        "updated_at": "2023-09-27T18:12:17.875Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b3b5b51-20df-4aa7-aaf4-ef3cf03b733b",
+        "employee_number": 36183,
+        "hire_date": "2023-09-28T02:38:58.261Z",
+        "termination_date": "2023-09-28T02:49:22.548Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "created_at": "2023-09-28T01:31:49.123Z",
+        "updated_at": "2023-09-28T10:04:42.403Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "11b27a17-7f0b-4686-9e61-9ed78c97c7bb",
+        "start_date": "2023-09-27T23:40:10.669Z",
+        "end_date": "2023-09-28T11:26:41.731Z",
+        "days_taken": 7918,
+        "vacation_type": "Annual Leave",
+        "created_at": "2023-09-28T08:10:54.157Z",
+        "updated_at": "2023-09-27T23:41:10.150Z",
+        "employee_id": "15cef128-b7f5-499f-ab2b-8db59ae9dc2c"
+      },
+      {
+        "id": "7342b6e5-3d38-4369-a9a0-98459c689b32",
+        "start_date": "2023-09-28T11:36:58.540Z",
+        "end_date": "2023-09-28T04:54:08.036Z",
+        "days_taken": 89520,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-27T16:11:20.044Z",
+        "updated_at": "2023-09-27T22:14:45.785Z",
+        "employee_id": "68081cb8-0f5e-4bee-8bba-21dd426b2a1e"
+      },
+      {
+        "id": "3d4e990b-6547-42a3-96a1-e22bab5ab39d",
+        "start_date": "2023-09-27T15:30:36.640Z",
+        "end_date": "2023-09-27T20:02:08.670Z",
+        "days_taken": 20338,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-27T19:30:18.742Z",
+        "updated_at": "2023-09-28T14:53:25.356Z",
+        "employee_id": "68081cb8-0f5e-4bee-8bba-21dd426b2a1e"
+      },
+      {
+        "id": "938fd776-39e7-4c6e-9b25-841eb51eddc9",
+        "start_date": "2023-09-28T10:33:14.728Z",
+        "end_date": "2023-09-28T11:58:48.952Z",
+        "days_taken": 43552,
+        "vacation_type": "Paternity Leave",
+        "created_at": "2023-09-27T18:06:28.318Z",
+        "updated_at": "2023-09-28T08:33:53.898Z",
+        "employee_id": "9b3b5b51-20df-4aa7-aaf4-ef3cf03b733b"
+      },
+      {
+        "id": "b7e836bc-e661-415c-bdf4-a7f0c3a81036",
+        "start_date": "2023-09-27T17:02:04.155Z",
+        "end_date": "2023-09-28T07:29:43.949Z",
+        "days_taken": 97009,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-28T15:05:54.434Z",
+        "updated_at": "2023-09-28T03:09:31.284Z",
+        "employee_id": "3be842c9-e55a-4e64-b6a6-22087a21091b"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "77747d66-41e5-453a-b6ec-6c66758617b2",
+        "pay_date": "2023-09-27T21:34:06.415Z",
+        "gross_pay": 45196,
+        "net_pay": 70197,
+        "taxes": 46165,
+        "deductions": 31872,
+        "created_at": "2023-09-28T08:28:06.841Z",
+        "updated_at": "2023-09-28T01:21:58.266Z",
+        "employee_id": "68081cb8-0f5e-4bee-8bba-21dd426b2a1e"
+      },
+      {
+        "id": "670221f8-a8ac-4ad1-a1c8-56270bdc80d9",
+        "pay_date": "2023-09-27T15:51:53.030Z",
+        "gross_pay": 96645,
+        "net_pay": 4456,
+        "taxes": 56567,
+        "deductions": 80494,
+        "created_at": "2023-09-28T02:21:17.884Z",
+        "updated_at": "2023-09-27T15:30:51.200Z",
+        "employee_id": "68081cb8-0f5e-4bee-8bba-21dd426b2a1e"
+      },
+      {
+        "id": "3e884a1d-1815-4290-9cfb-5a24e981b696",
+        "pay_date": "2023-09-28T03:36:57.407Z",
+        "gross_pay": 54439,
+        "net_pay": 54410,
+        "taxes": 95135,
+        "deductions": 38498,
+        "created_at": "2023-09-28T07:16:39.959Z",
+        "updated_at": "2023-09-27T20:59:38.632Z",
+        "employee_id": "3be842c9-e55a-4e64-b6a6-22087a21091b"
+      },
+      {
+        "id": "80ccd057-e372-466e-b7f2-e87d5a37aae8",
+        "pay_date": "2023-09-28T04:31:14.771Z",
+        "gross_pay": 40880,
+        "net_pay": 43096,
+        "taxes": 79825,
+        "deductions": 1004,
+        "created_at": "2023-09-27T17:41:22.294Z",
+        "updated_at": "2023-09-27T19:13:01.380Z",
+        "employee_id": "3be842c9-e55a-4e64-b6a6-22087a21091b"
+      },
+      {
+        "id": "35bb16e3-1c98-4585-9f8c-ce1c86918039",
+        "pay_date": "2023-09-28T12:52:44.901Z",
+        "gross_pay": 86496,
+        "net_pay": 49041,
+        "taxes": 91309,
+        "deductions": 94284,
+        "created_at": "2023-09-27T15:55:11.367Z",
+        "updated_at": "2023-09-28T01:18:51.325Z",
+        "employee_id": "7867d59c-e583-4548-8cd4-a77b562c5ba3"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "5483a6e5-023e-4a3a-ad7c-4e11727b2206",
+        "business_name": "ABC Bakery",
+        "business_type": "Bakery",
+        "business_address": "789 Main Street",
+        "business_city": "New York",
+        "business_state": "NY",
+        "business_zip_code": "10001",
+        "created_at": "2023-09-28T02:40:33.484Z",
+        "updated_at": "2023-09-28T14:04:13.985Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b501ceca-5b1a-4c1e-93dc-34a06eab581a",
+        "business_name": "XYZ Fitness",
+        "business_type": "Fitness Center",
+        "business_address": "456 Elm Avenue",
+        "business_city": "Los Angeles",
+        "business_state": "CA",
+        "business_zip_code": "90001",
+        "created_at": "2023-09-28T13:54:01.300Z",
+        "updated_at": "2023-09-27T20:37:00.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2353e218-5cb5-459f-901c-4b6824dd2bb7",
+        "business_name": "123 Plumbing",
+        "business_type": "Plumbing Services",
+        "business_address": "123 Oak Lane",
+        "business_city": "Chicago",
+        "business_state": "IL",
+        "business_zip_code": "60601",
+        "created_at": "2023-09-28T06:45:31.437Z",
+        "updated_at": "2023-09-28T07:47:30.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9c172e3-4d9d-408f-991f-2509829aec68",
+        "business_name": "Acme Restaurant",
+        "business_type": "Restaurant",
+        "business_address": "321 Pine Road",
+        "business_city": "Houston",
+        "business_state": "TX",
+        "business_zip_code": "77001",
+        "created_at": "2023-09-28T01:34:55.415Z",
+        "updated_at": "2023-09-28T00:19:37.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4ecae9c-62dc-42f0-9464-501022c29daf",
+        "business_name": "Global Consulting",
+        "business_type": "Consulting Firm",
+        "business_address": "654 Maple Drive",
+        "business_city": "Phoenix",
+        "business_state": "AZ",
+        "business_zip_code": "85001",
+        "created_at": "2023-09-27T18:26:59.198Z",
+        "updated_at": "2023-09-28T04:29:23.493Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fa902381-7b45-4fb6-811b-44fe68dc4bfc",
+        "email": "Margot59@roq.tech",
+        "firstName": "Kobe",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22781997",
+        "tenantId": null
+      },
+      {
+        "reference": "9c27f523-45a3-42ff-ac79-f957ec26ed83",
+        "email": "Jayson49@roq.tech",
+        "firstName": "Jermain",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32763958",
+        "tenantId": null
+      },
+      {
+        "reference": "70160da9-d8a4-4dd8-89b9-3e58436b34dc",
+        "email": "Ethel_Borer@roq.tech",
+        "firstName": "Emmy",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31940962",
+        "tenantId": null
+      },
+      {
+        "reference": "c6e90f82-6392-4eb7-9657-37c4d8ce9dc7",
+        "email": "Stevie77@roq.tech",
+        "firstName": "Austyn",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4744664",
+        "tenantId": null
+      },
+      {
+        "reference": "825268df-b973-4f18-a5d4-a42754504ea1",
+        "email": "Easton.Langworth@roq.tech",
+        "firstName": "Jessy",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35582281",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "98d68154-bfd2-4dd0-abf5-a0596453eb0f",
+        "employee_number": 30807,
+        "hire_date": "2023-09-28T02:35:27.959Z",
+        "termination_date": "2023-09-28T06:47:45.228Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "created_at": "2023-09-28T02:49:17.744Z",
+        "updated_at": "2023-09-28T00:27:08.036Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d22e0059-606e-4964-b264-cfd81c652a6d",
+        "employee_number": 6914,
+        "hire_date": "2023-09-27T17:13:07.435Z",
+        "termination_date": "2023-09-27T20:52:37.987Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-28T01:38:06.132Z",
+        "updated_at": "2023-09-28T13:32:43.284Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f86ed473-c962-47b7-a768-659a5081c23e",
+        "employee_number": 19431,
+        "hire_date": "2023-09-28T11:08:09.794Z",
+        "termination_date": "2023-09-27T23:35:29.852Z",
+        "job_title": "Supervisor",
+        "department": "Finance",
+        "created_at": "2023-09-28T03:28:31.066Z",
+        "updated_at": "2023-09-28T02:57:46.569Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f995396-6f30-4fe2-96c1-d461ee306717",
+        "employee_number": 99553,
+        "hire_date": "2023-09-28T09:32:27.751Z",
+        "termination_date": "2023-09-28T00:05:34.065Z",
+        "job_title": "Analyst",
+        "department": "HR",
+        "created_at": "2023-09-28T09:46:22.192Z",
+        "updated_at": "2023-09-28T01:24:01.827Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef34d160-b518-459e-887f-f1bfd0d4a034",
+        "employee_number": 4774,
+        "hire_date": "2023-09-28T05:08:21.296Z",
+        "termination_date": "2023-09-27T19:37:35.057Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "created_at": "2023-09-27T17:26:04.744Z",
+        "updated_at": "2023-09-28T13:39:48.754Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "071204fd-c290-41cb-89b1-e0577e4e2a44",
+        "start_date": "2023-09-27T22:30:20.246Z",
+        "end_date": "2023-09-27T15:37:59.195Z",
+        "days_taken": 4676,
+        "vacation_type": "Paid Leave",
+        "created_at": "2023-09-28T13:57:35.617Z",
+        "updated_at": "2023-09-27T19:27:07.710Z",
+        "employee_id": "1f995396-6f30-4fe2-96c1-d461ee306717"
+      },
+      {
+        "id": "5e1ad55b-cc3e-45b1-b23e-173ea442fd01",
+        "start_date": "2023-09-27T16:15:51.768Z",
+        "end_date": "2023-09-28T11:38:04.100Z",
+        "days_taken": 20668,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-27T16:43:59.676Z",
+        "updated_at": "2023-09-28T07:55:20.000Z",
+        "employee_id": "98d68154-bfd2-4dd0-abf5-a0596453eb0f"
+      },
+      {
+        "id": "c7b7ed1d-77b0-48df-9473-29e0eb99b2cd",
+        "start_date": "2023-09-28T14:53:41.545Z",
+        "end_date": "2023-09-28T11:29:25.043Z",
+        "days_taken": 58183,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-28T12:36:21.762Z",
+        "updated_at": "2023-09-28T03:03:32.120Z",
+        "employee_id": "ef34d160-b518-459e-887f-f1bfd0d4a034"
+      },
+      {
+        "id": "a759c390-a318-431c-9739-5af4c6b4adc8",
+        "start_date": "2023-09-27T16:55:41.597Z",
+        "end_date": "2023-09-28T12:15:31.175Z",
+        "days_taken": 32811,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-27T19:52:57.937Z",
+        "updated_at": "2023-09-28T12:59:26.122Z",
+        "employee_id": "1f995396-6f30-4fe2-96c1-d461ee306717"
+      },
+      {
+        "id": "7c58e957-e89d-4a7e-95f2-d68afaafdf6f",
+        "start_date": "2023-09-27T15:18:18.169Z",
+        "end_date": "2023-09-28T12:41:33.962Z",
+        "days_taken": 72115,
+        "vacation_type": "Bereavement Leave",
+        "created_at": "2023-09-28T07:15:37.655Z",
+        "updated_at": "2023-09-28T11:29:39.747Z",
+        "employee_id": "98d68154-bfd2-4dd0-abf5-a0596453eb0f"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "9855f549-70df-472e-b963-b862037da549",
+        "pay_date": "2023-09-27T15:21:55.084Z",
+        "gross_pay": 84527,
+        "net_pay": 57693,
+        "taxes": 66322,
+        "deductions": 67595,
+        "created_at": "2023-09-28T05:38:33.600Z",
+        "updated_at": "2023-09-28T01:15:51.769Z",
+        "employee_id": "d22e0059-606e-4964-b264-cfd81c652a6d"
+      },
+      {
+        "id": "df6c1a32-2e38-4fb3-93b7-3007dee20425",
+        "pay_date": "2023-09-28T10:31:04.483Z",
+        "gross_pay": 73482,
+        "net_pay": 91197,
+        "taxes": 79838,
+        "deductions": 58590,
+        "created_at": "2023-09-28T15:06:53.928Z",
+        "updated_at": "2023-09-28T00:38:20.022Z",
+        "employee_id": "98d68154-bfd2-4dd0-abf5-a0596453eb0f"
+      },
+      {
+        "id": "aeff8b7a-b713-40c7-8dd3-618b2ca3d9d0",
+        "pay_date": "2023-09-27T19:40:44.439Z",
+        "gross_pay": 4481,
+        "net_pay": 99884,
+        "taxes": 16494,
+        "deductions": 921,
+        "created_at": "2023-09-28T14:39:16.405Z",
+        "updated_at": "2023-09-27T20:57:55.625Z",
+        "employee_id": "1f995396-6f30-4fe2-96c1-d461ee306717"
+      },
+      {
+        "id": "c343685d-228d-4001-be58-a9afe1ff7aa5",
+        "pay_date": "2023-09-28T13:08:14.165Z",
+        "gross_pay": 38221,
+        "net_pay": 80679,
+        "taxes": 33856,
+        "deductions": 96090,
+        "created_at": "2023-09-28T10:39:12.569Z",
+        "updated_at": "2023-09-28T13:25:11.130Z",
+        "employee_id": "98d68154-bfd2-4dd0-abf5-a0596453eb0f"
+      },
+      {
+        "id": "d31078a6-4bb3-44ec-a4e2-bc2e99684145",
+        "pay_date": "2023-09-28T05:43:29.456Z",
+        "gross_pay": 35799,
+        "net_pay": 94235,
+        "taxes": 73037,
+        "deductions": 61079,
+        "created_at": "2023-09-28T12:34:02.050Z",
+        "updated_at": "2023-09-28T05:08:28.637Z",
+        "employee_id": "d22e0059-606e-4964-b264-cfd81c652a6d"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "f46c165a-60c9-4d36-9b88-fd62a4bab766",
+        "business_name": "ABC Bakery",
+        "business_type": "Bakery",
+        "business_address": "789 Main Street",
+        "business_city": "New York",
+        "business_state": "NY",
+        "business_zip_code": "10001",
+        "created_at": "2023-09-28T06:57:35.967Z",
+        "updated_at": "2023-09-28T12:28:59.079Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb5e612b-88ba-48b3-8931-ae303c3adcc0",
+        "business_name": "XYZ Fitness",
+        "business_type": "Fitness Center",
+        "business_address": "456 Elm Avenue",
+        "business_city": "Los Angeles",
+        "business_state": "CA",
+        "business_zip_code": "90001",
+        "created_at": "2023-09-28T03:33:56.712Z",
+        "updated_at": "2023-09-28T11:57:32.956Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7a9abfa-97c2-4665-a676-df8da8be05cd",
+        "business_name": "123 Restaurant",
+        "business_type": "Restaurant",
+        "business_address": "123 Oak Lane",
+        "business_city": "Chicago",
+        "business_state": "IL",
+        "business_zip_code": "60601",
+        "created_at": "2023-09-27T19:06:15.932Z",
+        "updated_at": "2023-09-28T01:20:00.281Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "417efdf0-cba2-43a1-b6b7-a4f7c71bab7a",
+        "business_name": "Acme Salon",
+        "business_type": "Salon",
+        "business_address": "321 Pine Road",
+        "business_city": "Houston",
+        "business_state": "TX",
+        "business_zip_code": "77001",
+        "created_at": "2023-09-28T13:24:19.769Z",
+        "updated_at": "2023-09-28T07:31:20.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32bedbef-8a57-4235-862b-f955502cd22a",
+        "business_name": "Global Consulting",
+        "business_type": "Consulting Firm",
+        "business_address": "654 Maple Drive",
+        "business_city": "Philadelphia",
+        "business_state": "PA",
+        "business_zip_code": "19101",
+        "created_at": "2023-09-28T01:27:52.934Z",
+        "updated_at": "2023-09-28T02:37:50.352Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "04f91734-510e-4d65-b7d4-21fa5319c90e",
+        "email": "Charlotte_Hermann@roq.tech",
+        "firstName": "Derrick",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/883.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1142436-2e51-4edc-9133-c95a9d36c785",
+        "email": "Bailey.Marquardt26@roq.tech",
+        "firstName": "Tyrel",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48991195",
+        "tenantId": null
+      },
+      {
+        "reference": "dacaa4eb-8957-4ae8-94f0-1ae7aba5b636",
+        "email": "Estelle73@roq.tech",
+        "firstName": "Justine",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b086d458-d387-4d36-b8a2-b3d49efe9fcb",
+        "email": "Norma_Conroy62@roq.tech",
+        "firstName": "Westley",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/814.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb369216-380e-44a6-852a-d99be9af98e6",
+        "email": "Carole_Heathcote33@roq.tech",
+        "firstName": "Roel",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20616943",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "45f2ed4e-5dc3-48bd-9460-3a5647c42ea6",
+        "employee_number": 5013,
+        "hire_date": "2023-09-27T21:51:59.635Z",
+        "termination_date": "2023-09-27T17:48:31.331Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "created_at": "2023-09-27T22:14:49.996Z",
+        "updated_at": "2023-09-27T18:54:07.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eee6b2e-0acc-4e9a-a82f-0c0cd9344275",
+        "employee_number": 34066,
+        "hire_date": "2023-09-28T06:13:44.186Z",
+        "termination_date": "2023-09-27T15:17:27.143Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-27T19:59:38.729Z",
+        "updated_at": "2023-09-28T05:34:21.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef873189-5372-4822-ae73-3988dd12c82e",
+        "employee_number": 8044,
+        "hire_date": "2023-09-27T18:14:45.379Z",
+        "termination_date": "2023-09-28T08:15:36.371Z",
+        "job_title": "Supervisor",
+        "department": "Finance",
+        "created_at": "2023-09-27T22:00:42.052Z",
+        "updated_at": "2023-09-28T13:10:00.306Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2f57abc-4709-4428-a93c-96c4ce783a0f",
+        "employee_number": 15745,
+        "hire_date": "2023-09-27T17:28:43.021Z",
+        "termination_date": "2023-09-28T12:08:09.876Z",
+        "job_title": "Analyst",
+        "department": "HR",
+        "created_at": "2023-09-27T21:40:04.583Z",
+        "updated_at": "2023-09-28T05:40:08.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77d7a038-293d-4f6b-b195-c0540f4d1c56",
+        "employee_number": 53938,
+        "hire_date": "2023-09-28T09:21:20.628Z",
+        "termination_date": "2023-09-27T19:08:44.114Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "created_at": "2023-09-28T04:49:18.245Z",
+        "updated_at": "2023-09-27T20:11:11.963Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "eeef237a-bae5-4a15-b480-79d8f4eb721c",
+        "start_date": "2023-09-28T05:53:16.945Z",
+        "end_date": "2023-09-28T14:29:09.272Z",
+        "days_taken": 85038,
+        "vacation_type": "Paid",
+        "created_at": "2023-09-27T23:21:28.009Z",
+        "updated_at": "2023-09-28T02:34:49.148Z",
+        "employee_id": "7eee6b2e-0acc-4e9a-a82f-0c0cd9344275"
+      },
+      {
+        "id": "fc4c9d8f-1263-41b1-918f-7cd128d7b582",
+        "start_date": "2023-09-27T20:34:17.183Z",
+        "end_date": "2023-09-27T22:54:49.117Z",
+        "days_taken": 37776,
+        "vacation_type": "Sick",
+        "created_at": "2023-09-28T12:00:30.895Z",
+        "updated_at": "2023-09-27T22:33:45.485Z",
+        "employee_id": "ef873189-5372-4822-ae73-3988dd12c82e"
+      },
+      {
+        "id": "ade0d030-3153-42d5-8e2a-162d9799f05f",
+        "start_date": "2023-09-28T09:12:10.442Z",
+        "end_date": "2023-09-27T15:51:47.656Z",
+        "days_taken": 32322,
+        "vacation_type": "Maternity",
+        "created_at": "2023-09-27T18:18:45.805Z",
+        "updated_at": "2023-09-28T12:25:04.388Z",
+        "employee_id": "45f2ed4e-5dc3-48bd-9460-3a5647c42ea6"
+      },
+      {
+        "id": "2f4d55ab-209e-454b-a837-bda0fe6170ea",
+        "start_date": "2023-09-28T12:14:30.888Z",
+        "end_date": "2023-09-28T15:08:41.845Z",
+        "days_taken": 39476,
+        "vacation_type": "Paternity",
+        "created_at": "2023-09-28T03:19:14.428Z",
+        "updated_at": "2023-09-28T04:02:19.903Z",
+        "employee_id": "7eee6b2e-0acc-4e9a-a82f-0c0cd9344275"
+      },
+      {
+        "id": "eecd5136-d0dc-45c7-9398-75f6505a6b4f",
+        "start_date": "2023-09-27T18:12:23.057Z",
+        "end_date": "2023-09-28T05:22:00.896Z",
+        "days_taken": 12020,
+        "vacation_type": "Unpaid",
+        "created_at": "2023-09-27T23:23:01.620Z",
+        "updated_at": "2023-09-28T13:15:21.971Z",
+        "employee_id": "45f2ed4e-5dc3-48bd-9460-3a5647c42ea6"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "34b3b26f-b8c4-4e76-ba3d-b4e6514173ab",
+        "pay_date": "2023-09-28T06:39:00.683Z",
+        "gross_pay": 9962,
+        "net_pay": 19645,
+        "taxes": 84868,
+        "deductions": 34136,
+        "created_at": "2023-09-28T00:32:47.574Z",
+        "updated_at": "2023-09-27T16:15:02.058Z",
+        "employee_id": "77d7a038-293d-4f6b-b195-c0540f4d1c56"
+      },
+      {
+        "id": "762224f7-f76b-4fd1-9fa7-9f1ec03c66b4",
+        "pay_date": "2023-09-27T22:58:18.830Z",
+        "gross_pay": 34114,
+        "net_pay": 25426,
+        "taxes": 86403,
+        "deductions": 823,
+        "created_at": "2023-09-28T10:54:10.309Z",
+        "updated_at": "2023-09-27T17:28:14.049Z",
+        "employee_id": "45f2ed4e-5dc3-48bd-9460-3a5647c42ea6"
+      },
+      {
+        "id": "7cf0142f-3a62-475c-9256-1ac88d782ad1",
+        "pay_date": "2023-09-27T17:17:11.955Z",
+        "gross_pay": 22820,
+        "net_pay": 99800,
+        "taxes": 92290,
+        "deductions": 58488,
+        "created_at": "2023-09-28T13:29:32.002Z",
+        "updated_at": "2023-09-27T20:19:47.654Z",
+        "employee_id": "ef873189-5372-4822-ae73-3988dd12c82e"
+      },
+      {
+        "id": "e5a36b13-b565-4666-966f-8f4f5a66d3c7",
+        "pay_date": "2023-09-27T17:13:30.334Z",
+        "gross_pay": 82383,
+        "net_pay": 95998,
+        "taxes": 1736,
+        "deductions": 23820,
+        "created_at": "2023-09-27T20:50:47.436Z",
+        "updated_at": "2023-09-28T08:34:49.061Z",
+        "employee_id": "ef873189-5372-4822-ae73-3988dd12c82e"
+      },
+      {
+        "id": "f4fa2251-e6b4-48ba-b45c-f4ba15c3f95d",
+        "pay_date": "2023-09-28T11:45:38.624Z",
+        "gross_pay": 14929,
+        "net_pay": 61406,
+        "taxes": 69507,
+        "deductions": 74511,
+        "created_at": "2023-09-28T04:26:47.702Z",
+        "updated_at": "2023-09-28T10:27:52.009Z",
+        "employee_id": "7eee6b2e-0acc-4e9a-a82f-0c0cd9344275"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "d2c21017-fc92-49c7-8b35-f3f2095168c5",
+        "business_name": "Smith & Sons",
+        "business_type": "Retail",
+        "business_address": "987 Main Street",
+        "business_city": "New York",
+        "business_state": "NY",
+        "business_zip_code": "10002",
+        "created_at": "2023-09-28T12:00:44.897Z",
+        "updated_at": "2023-09-28T14:51:50.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3ba51e7-6269-4b78-833e-d38e3c59ec1c",
+        "business_name": "Johnson Enterprises",
+        "business_type": "Hospitality",
+        "business_address": "654 Elm Avenue",
+        "business_city": "Los Angeles",
+        "business_state": "CA",
+        "business_zip_code": "90002",
+        "created_at": "2023-09-28T13:06:00.454Z",
+        "updated_at": "2023-09-28T13:39:02.457Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ee908aa-c5a6-4168-8bf2-a09d478cc0ed",
+        "business_name": "Brown Investments",
+        "business_type": "Technology",
+        "business_address": "321 Oak Lane",
+        "business_city": "Chicago",
+        "business_state": "IL",
+        "business_zip_code": "60602",
+        "created_at": "2023-09-28T07:05:21.414Z",
+        "updated_at": "2023-09-28T03:26:17.953Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8350e80-de12-4e19-9c84-a5fcc7dabd44",
+        "business_name": "Wilson Holdings",
+        "business_type": "Real Estate",
+        "business_address": "789 Pine Road",
+        "business_city": "Houston",
+        "business_state": "TX",
+        "business_zip_code": "77002",
+        "created_at": "2023-09-28T04:49:27.046Z",
+        "updated_at": "2023-09-27T16:02:34.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30672313-286a-48a2-b504-7c051aa2f78e",
+        "business_name": "Davis Ventures",
+        "business_type": "Finance",
+        "business_address": "456 Maple Drive",
+        "business_city": "Miami",
+        "business_state": "FL",
+        "business_zip_code": "33102",
+        "created_at": "2023-09-28T11:24:50.337Z",
+        "updated_at": "2023-09-27T20:41:05.539Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bae63148-fde8-4de0-8b56-598a0de8c8bb",
+        "email": "Savannah.Leannon@roq.tech",
+        "firstName": "Destiny",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46401525",
+        "tenantId": null
+      },
+      {
+        "reference": "436ff315-562b-4ea7-a717-711dfa19f16a",
+        "email": "Myah95@roq.tech",
+        "firstName": "Laverna",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c45bc0eb-e090-4a29-bf5c-c601ad01eeed",
+        "email": "Kobe99@roq.tech",
+        "firstName": "Idell",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/287.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "59e1f9bd-5219-4912-9e56-ec02ab276f33",
+        "email": "Anastasia.Renner65@roq.tech",
+        "firstName": "Velva",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/408.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8bc6620c-b34c-4347-98a3-6e308d6696a5",
+        "email": "Marjolaine47@roq.tech",
+        "firstName": "Elissa",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27815226",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "5151394a-d4d9-4ca6-b5bb-945cd4359b98",
+        "employee_number": 73622,
+        "hire_date": "2023-09-28T02:41:29.938Z",
+        "termination_date": "2023-09-28T01:32:47.111Z",
+        "job_title": "Manager",
+        "department": "Marketing",
+        "created_at": "2023-09-28T04:53:50.324Z",
+        "updated_at": "2023-09-28T13:31:53.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e5eff4c-fcd9-4100-821a-ce7950bd697a",
+        "employee_number": 63091,
+        "hire_date": "2023-09-27T22:49:05.402Z",
+        "termination_date": "2023-09-28T10:53:20.523Z",
+        "job_title": "Engineer",
+        "department": "Finance",
+        "created_at": "2023-09-27T16:59:08.636Z",
+        "updated_at": "2023-09-27T23:52:17.692Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9fe7048-78ec-4a3d-a80b-3f32deb680ca",
+        "employee_number": 8398,
+        "hire_date": "2023-09-28T05:05:21.594Z",
+        "termination_date": "2023-09-27T18:53:14.406Z",
+        "job_title": "Sales Representative",
+        "department": "Operations",
+        "created_at": "2023-09-28T09:54:36.011Z",
+        "updated_at": "2023-09-27T23:35:27.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31103445-a85d-4ea6-a388-c7550bdb0d52",
+        "employee_number": 63179,
+        "hire_date": "2023-09-28T06:02:03.911Z",
+        "termination_date": "2023-09-27T22:21:49.945Z",
+        "job_title": "Accountant",
+        "department": "Human Resources",
+        "created_at": "2023-09-28T00:27:05.372Z",
+        "updated_at": "2023-09-28T06:03:40.917Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99a1c9c8-7129-4b16-8c75-f4dfb161e4e7",
+        "employee_number": 11916,
+        "hire_date": "2023-09-28T10:05:32.545Z",
+        "termination_date": "2023-09-27T16:15:45.351Z",
+        "job_title": "HR Specialist",
+        "department": "IT",
+        "created_at": "2023-09-27T18:16:15.464Z",
+        "updated_at": "2023-09-27T17:03:26.240Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "5e025bf1-9e0f-4db5-a48c-ccaa55300adb",
+        "start_date": "2023-09-28T09:34:32.760Z",
+        "end_date": "2023-09-27T16:04:59.551Z",
+        "days_taken": 25097,
+        "vacation_type": "Paid Leave",
+        "created_at": "2023-09-28T01:37:09.024Z",
+        "updated_at": "2023-09-27T17:59:42.447Z",
+        "employee_id": "f9fe7048-78ec-4a3d-a80b-3f32deb680ca"
+      },
+      {
+        "id": "c7a9b085-ca7b-46e4-a99b-554bf0e5331e",
+        "start_date": "2023-09-28T08:50:55.916Z",
+        "end_date": "2023-09-28T10:29:35.928Z",
+        "days_taken": 22615,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-28T12:08:48.778Z",
+        "updated_at": "2023-09-27T20:26:30.679Z",
+        "employee_id": "31103445-a85d-4ea6-a388-c7550bdb0d52"
+      },
+      {
+        "id": "a6d91fbd-f235-449f-bdca-9fb5c845196e",
+        "start_date": "2023-09-28T00:00:15.335Z",
+        "end_date": "2023-09-27T20:21:29.848Z",
+        "days_taken": 31094,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-27T20:53:45.363Z",
+        "updated_at": "2023-09-27T18:26:03.999Z",
+        "employee_id": "5151394a-d4d9-4ca6-b5bb-945cd4359b98"
+      },
+      {
+        "id": "40985c49-2a6a-43d8-af57-ef2dd39754c1",
+        "start_date": "2023-09-28T13:05:00.347Z",
+        "end_date": "2023-09-28T00:01:23.240Z",
+        "days_taken": 54148,
+        "vacation_type": "Parental Leave",
+        "created_at": "2023-09-27T19:45:58.844Z",
+        "updated_at": "2023-09-28T13:34:23.551Z",
+        "employee_id": "99a1c9c8-7129-4b16-8c75-f4dfb161e4e7"
+      },
+      {
+        "id": "257ff21a-ed6a-4d16-b125-c02c4e8818bd",
+        "start_date": "2023-09-27T19:33:25.416Z",
+        "end_date": "2023-09-27T15:36:58.431Z",
+        "days_taken": 44107,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-28T03:49:41.307Z",
+        "updated_at": "2023-09-28T13:37:09.742Z",
+        "employee_id": "5151394a-d4d9-4ca6-b5bb-945cd4359b98"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "5cb73b21-dd9a-4c4e-a23e-1051af5f559e",
+        "pay_date": "2023-09-28T11:52:24.304Z",
+        "gross_pay": 95839,
+        "net_pay": 83589,
+        "taxes": 78661,
+        "deductions": 18445,
+        "created_at": "2023-09-27T21:59:37.856Z",
+        "updated_at": "2023-09-27T17:23:03.899Z",
+        "employee_id": "5151394a-d4d9-4ca6-b5bb-945cd4359b98"
+      },
+      {
+        "id": "12f757d5-bb3e-464d-b380-01dae7f901d2",
+        "pay_date": "2023-09-28T11:55:44.693Z",
+        "gross_pay": 54004,
+        "net_pay": 47612,
+        "taxes": 75014,
+        "deductions": 16261,
+        "created_at": "2023-09-28T02:22:41.225Z",
+        "updated_at": "2023-09-28T04:21:18.542Z",
+        "employee_id": "31103445-a85d-4ea6-a388-c7550bdb0d52"
+      },
+      {
+        "id": "dc80c876-dddb-4732-88b1-a6f3bfde2c8e",
+        "pay_date": "2023-09-28T12:02:13.869Z",
+        "gross_pay": 58891,
+        "net_pay": 51624,
+        "taxes": 3292,
+        "deductions": 19313,
+        "created_at": "2023-09-28T14:38:11.278Z",
+        "updated_at": "2023-09-27T17:46:22.523Z",
+        "employee_id": "99a1c9c8-7129-4b16-8c75-f4dfb161e4e7"
+      },
+      {
+        "id": "eccdba47-9b76-4b29-80af-d8bceab1495c",
+        "pay_date": "2023-09-28T07:17:49.541Z",
+        "gross_pay": 79323,
+        "net_pay": 92552,
+        "taxes": 23908,
+        "deductions": 91702,
+        "created_at": "2023-09-28T08:32:42.293Z",
+        "updated_at": "2023-09-28T07:03:55.277Z",
+        "employee_id": "31103445-a85d-4ea6-a388-c7550bdb0d52"
+      },
+      {
+        "id": "aa0ec223-2fb2-458d-8d9b-a3c34b686666",
+        "pay_date": "2023-09-27T20:14:23.780Z",
+        "gross_pay": 30675,
+        "net_pay": 4574,
+        "taxes": 48850,
+        "deductions": 35021,
+        "created_at": "2023-09-27T18:13:11.280Z",
+        "updated_at": "2023-09-28T03:55:04.296Z",
+        "employee_id": "f9fe7048-78ec-4a3d-a80b-3f32deb680ca"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "107f9ffe-598a-4743-9895-e9579116caf6",
+        "business_name": "ABC Bakery",
+        "business_type": "Bakery",
+        "business_address": "789 Main Street",
+        "business_city": "New York",
+        "business_state": "NY",
+        "business_zip_code": "10001",
+        "created_at": "2023-09-27T16:50:47.637Z",
+        "updated_at": "2023-09-28T03:33:53.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3e3ad22-e2c2-4a3b-ae36-aab716ed7e26",
+        "business_name": "XYZ Fitness",
+        "business_type": "Fitness Center",
+        "business_address": "456 Elm Avenue",
+        "business_city": "Los Angeles",
+        "business_state": "CA",
+        "business_zip_code": "90001",
+        "created_at": "2023-09-28T12:01:36.335Z",
+        "updated_at": "2023-09-27T23:58:42.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4809c971-3c41-4091-8d45-8829ac0591ff",
+        "business_name": "123 Plumbing",
+        "business_type": "Plumbing Services",
+        "business_address": "123 Oak Drive",
+        "business_city": "Chicago",
+        "business_state": "IL",
+        "business_zip_code": "60601",
+        "created_at": "2023-09-27T21:53:41.138Z",
+        "updated_at": "2023-09-27T16:44:39.980Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79790089-6802-4156-b50f-66c172c24122",
+        "business_name": "Acme Restaurant",
+        "business_type": "Restaurant",
+        "business_address": "321 Maple Lane",
+        "business_city": "Houston",
+        "business_state": "TX",
+        "business_zip_code": "77001",
+        "created_at": "2023-09-28T00:46:56.576Z",
+        "updated_at": "2023-09-27T21:55:33.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3594dc0e-57d6-4e2e-a6ca-e2f4e2766f39",
+        "business_name": "Global Consulting",
+        "business_type": "Consulting Firm",
+        "business_address": "654 Pine Road",
+        "business_city": "Philadelphia",
+        "business_state": "PA",
+        "business_zip_code": "19101",
+        "created_at": "2023-09-28T05:04:25.805Z",
+        "updated_at": "2023-09-28T08:36:31.068Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "02547b41-b032-482c-9f6e-1fe66e9b7319",
+        "email": "Dannie_Macejkovic13@roq.tech",
+        "firstName": "Layla",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42847993",
+        "tenantId": null
+      },
+      {
+        "reference": "04e57480-3c7a-49bf-9d88-83d1b28b1385",
+        "email": "Delilah_Terry@roq.tech",
+        "firstName": "Holly",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5bf0d29b-6077-4e92-bb2b-0b15e3562050",
+        "email": "Milo75@roq.tech",
+        "firstName": "Mona",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40902845",
+        "tenantId": null
+      },
+      {
+        "reference": "a298631c-bedd-4b92-8b7e-9b0b1eeb4d91",
+        "email": "Melyna72@roq.tech",
+        "firstName": "Odessa",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f3d572e-7f5e-4416-995f-bcb1bf25292c",
+        "email": "Kacie60@roq.tech",
+        "firstName": "Annabelle",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/207.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "1224e95f-92f4-48e0-ab24-9006afb9d519",
+        "employee_number": 46446,
+        "hire_date": "2023-09-27T16:16:48.403Z",
+        "termination_date": "2023-09-27T19:09:31.913Z",
+        "job_title": "Manager",
+        "department": "Human Resources",
+        "created_at": "2023-09-27T16:50:11.176Z",
+        "updated_at": "2023-09-28T04:53:33.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6c9c61e-5e18-4c49-9621-69baa0b80152",
+        "employee_number": 52123,
+        "hire_date": "2023-09-27T15:13:25.806Z",
+        "termination_date": "2023-09-28T01:18:56.403Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-28T08:13:43.300Z",
+        "updated_at": "2023-09-28T09:08:23.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dee04836-7de6-4951-b71d-a463f8a434af",
+        "employee_number": 60398,
+        "hire_date": "2023-09-28T04:30:51.477Z",
+        "termination_date": "2023-09-27T21:45:34.649Z",
+        "job_title": "Sales Associate",
+        "department": "Finance",
+        "created_at": "2023-09-28T03:50:37.418Z",
+        "updated_at": "2023-09-27T17:29:32.931Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40a47716-19b7-4c43-8cef-1375550fc31a",
+        "employee_number": 73649,
+        "hire_date": "2023-09-28T14:33:02.750Z",
+        "termination_date": "2023-09-28T06:38:16.930Z",
+        "job_title": "Accountant",
+        "department": "Operations",
+        "created_at": "2023-09-27T20:08:51.669Z",
+        "updated_at": "2023-09-28T11:13:24.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "152d6e14-f9d1-4c32-8682-b4a33087d1c0",
+        "employee_number": 99136,
+        "hire_date": "2023-09-28T08:59:42.739Z",
+        "termination_date": "2023-09-28T10:20:15.077Z",
+        "job_title": "Administrative Assistant",
+        "department": "IT",
+        "created_at": "2023-09-27T20:29:24.672Z",
+        "updated_at": "2023-09-28T10:11:54.265Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "1629d260-d381-4e32-9495-2e6ad81dc88d",
+        "start_date": "2023-09-27T19:42:34.963Z",
+        "end_date": "2023-09-28T12:27:10.209Z",
+        "days_taken": 74408,
+        "vacation_type": "Paid Time Off",
+        "created_at": "2023-09-28T06:18:41.612Z",
+        "updated_at": "2023-09-28T03:41:28.574Z",
+        "employee_id": "dee04836-7de6-4951-b71d-a463f8a434af"
+      },
+      {
+        "id": "adc38830-4eb5-48e9-b13d-74aa7e812b02",
+        "start_date": "2023-09-28T04:31:33.137Z",
+        "end_date": "2023-09-27T21:39:20.230Z",
+        "days_taken": 10808,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-28T00:35:25.397Z",
+        "updated_at": "2023-09-27T19:39:29.350Z",
+        "employee_id": "152d6e14-f9d1-4c32-8682-b4a33087d1c0"
+      },
+      {
+        "id": "f05d0912-a1cb-458c-9e25-84567ab81e20",
+        "start_date": "2023-09-27T15:17:25.002Z",
+        "end_date": "2023-09-28T10:12:46.159Z",
+        "days_taken": 46721,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-27T18:01:39.787Z",
+        "updated_at": "2023-09-28T03:13:16.454Z",
+        "employee_id": "40a47716-19b7-4c43-8cef-1375550fc31a"
+      },
+      {
+        "id": "8befa002-ffe4-4a59-9c76-3af31418e205",
+        "start_date": "2023-09-28T09:56:17.445Z",
+        "end_date": "2023-09-28T03:57:36.376Z",
+        "days_taken": 61940,
+        "vacation_type": "Bereavement Leave",
+        "created_at": "2023-09-28T06:33:45.442Z",
+        "updated_at": "2023-09-28T01:16:59.843Z",
+        "employee_id": "dee04836-7de6-4951-b71d-a463f8a434af"
+      },
+      {
+        "id": "19c4cf9c-7b3a-4110-abee-eee4070e73e0",
+        "start_date": "2023-09-28T00:22:39.044Z",
+        "end_date": "2023-09-28T01:02:18.206Z",
+        "days_taken": 1278,
+        "vacation_type": "Parental Leave",
+        "created_at": "2023-09-27T18:54:31.626Z",
+        "updated_at": "2023-09-28T04:12:12.595Z",
+        "employee_id": "152d6e14-f9d1-4c32-8682-b4a33087d1c0"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "02288512-3554-497c-82d6-e498bfae44a3",
+        "pay_date": "2023-09-28T01:19:03.570Z",
+        "gross_pay": 15411,
+        "net_pay": 86774,
+        "taxes": 66671,
+        "deductions": 58225,
+        "created_at": "2023-09-28T09:14:59.873Z",
+        "updated_at": "2023-09-28T07:56:15.811Z",
+        "employee_id": "f6c9c61e-5e18-4c49-9621-69baa0b80152"
+      },
+      {
+        "id": "9899820f-8cd2-4c4c-bbca-b97a70f499c1",
+        "pay_date": "2023-09-28T02:33:11.186Z",
+        "gross_pay": 74212,
+        "net_pay": 35138,
+        "taxes": 36535,
+        "deductions": 63043,
+        "created_at": "2023-09-27T23:08:52.247Z",
+        "updated_at": "2023-09-27T20:41:15.688Z",
+        "employee_id": "152d6e14-f9d1-4c32-8682-b4a33087d1c0"
+      },
+      {
+        "id": "2b8e7d6d-fd27-41bb-80ae-5d89e37927ed",
+        "pay_date": "2023-09-28T05:03:27.890Z",
+        "gross_pay": 76083,
+        "net_pay": 50461,
+        "taxes": 16024,
+        "deductions": 87825,
+        "created_at": "2023-09-28T01:05:40.736Z",
+        "updated_at": "2023-09-27T19:58:29.922Z",
+        "employee_id": "f6c9c61e-5e18-4c49-9621-69baa0b80152"
+      },
+      {
+        "id": "aef34cfd-3746-411c-9d25-c1fcc97e6c02",
+        "pay_date": "2023-09-28T03:43:10.128Z",
+        "gross_pay": 51697,
+        "net_pay": 60048,
+        "taxes": 35183,
+        "deductions": 20303,
+        "created_at": "2023-09-27T23:10:05.805Z",
+        "updated_at": "2023-09-27T18:05:11.900Z",
+        "employee_id": "1224e95f-92f4-48e0-ab24-9006afb9d519"
+      },
+      {
+        "id": "b6fd861b-b158-4814-be61-b978e67fdc41",
+        "pay_date": "2023-09-28T13:09:41.068Z",
+        "gross_pay": 88507,
+        "net_pay": 89081,
+        "taxes": 726,
+        "deductions": 13942,
+        "created_at": "2023-09-27T21:52:58.589Z",
+        "updated_at": "2023-09-28T08:12:39.372Z",
+        "employee_id": "f6c9c61e-5e18-4c49-9621-69baa0b80152"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "c791fc9f-b8e0-4c47-ae48-988f2048fc9f",
+        "business_name": "ABC Restaurant",
+        "business_type": "Restaurant",
+        "business_address": "987 Main Street",
+        "business_city": "San Francisco",
+        "business_state": "CA",
+        "business_zip_code": "94101",
+        "created_at": "2023-09-28T02:50:01.518Z",
+        "updated_at": "2023-09-28T13:03:57.766Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "175bf2a2-546c-48d6-9e0f-501bd76e4507",
+        "business_name": "XYZ Boutique",
+        "business_type": "Retail",
+        "business_address": "654 Elm Avenue",
+        "business_city": "Seattle",
+        "business_state": "WA",
+        "business_zip_code": "98101",
+        "created_at": "2023-09-28T06:49:26.283Z",
+        "updated_at": "2023-09-28T12:23:07.057Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63638130-5432-4b96-89eb-3359203597a6",
+        "business_name": "123 Construction",
+        "business_type": "Construction",
+        "business_address": "321 Oak Lane",
+        "business_city": "Denver",
+        "business_state": "CO",
+        "business_zip_code": "80201",
+        "created_at": "2023-09-28T11:51:16.062Z",
+        "updated_at": "2023-09-27T20:44:03.562Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bba98c28-f0f0-4602-8a89-0a1ac779d82c",
+        "business_name": "Acme Bakery",
+        "business_type": "Bakery",
+        "business_address": "789 Maple Drive",
+        "business_city": "Boston",
+        "business_state": "MA",
+        "business_zip_code": "02101",
+        "created_at": "2023-09-27T22:00:22.943Z",
+        "updated_at": "2023-09-28T06:46:11.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49b193ce-a4d7-410f-9dbb-2e616b9f1fae",
+        "business_name": "Global Consulting",
+        "business_type": "Consulting",
+        "business_address": "456 Pine Road",
+        "business_city": "Atlanta",
+        "business_state": "GA",
+        "business_zip_code": "30301",
+        "created_at": "2023-09-27T15:15:41.117Z",
+        "updated_at": "2023-09-28T11:57:54.874Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5b1fdc43-6aed-419c-a701-42145d38a020",
+        "email": "Eileen_Grady-Roob@roq.tech",
+        "firstName": "Kayley",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bce85993-7aab-4da8-9c44-3ff05cda2e07",
+        "email": "Winfield33@roq.tech",
+        "firstName": "Ethyl",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca6f6624-5674-4c69-a67c-1ab8044a7156",
+        "email": "Shanelle_Jacobson@roq.tech",
+        "firstName": "Emilio",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22321664",
+        "tenantId": null
+      },
+      {
+        "reference": "cf8b477d-7f8b-4f6c-9b15-a5f3635ea751",
+        "email": "Mohamed_Denesik95@roq.tech",
+        "firstName": "Danyka",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70757239",
+        "tenantId": null
+      },
+      {
+        "reference": "fbfc7d5c-48c6-43db-8f96-1b2697a99972",
+        "email": "Annette.Bergnaum17@roq.tech",
+        "firstName": "Jakayla",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/226.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "26e4813e-d3f2-46a0-a9bf-d08977e4a97c",
+        "employee_number": 74906,
+        "hire_date": "2023-09-27T19:59:23.406Z",
+        "termination_date": "2023-09-28T13:09:43.551Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "created_at": "2023-09-28T11:54:34.678Z",
+        "updated_at": "2023-09-28T13:33:40.452Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62a4c75c-8e9f-49ab-9c5a-b53a19f66906",
+        "employee_number": 29487,
+        "hire_date": "2023-09-27T21:19:57.437Z",
+        "termination_date": "2023-09-28T04:12:53.452Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-27T23:35:34.536Z",
+        "updated_at": "2023-09-28T01:43:10.471Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50be9989-30a2-43b1-aecc-2dd4e2fecea1",
+        "employee_number": 88339,
+        "hire_date": "2023-09-28T04:18:02.036Z",
+        "termination_date": "2023-09-27T20:13:01.842Z",
+        "job_title": "Analyst",
+        "department": "Finance",
+        "created_at": "2023-09-28T12:17:35.212Z",
+        "updated_at": "2023-09-28T10:06:31.932Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "412c6796-8041-4cf0-9e2e-9ff8a8c5fee8",
+        "employee_number": 66400,
+        "hire_date": "2023-09-27T18:59:10.832Z",
+        "termination_date": "2023-09-28T06:28:38.957Z",
+        "job_title": "Supervisor",
+        "department": "Human Resources",
+        "created_at": "2023-09-28T06:04:33.716Z",
+        "updated_at": "2023-09-28T11:08:42.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09799c81-9b11-4ab6-a4d4-f5a228563383",
+        "employee_number": 99779,
+        "hire_date": "2023-09-27T21:44:50.787Z",
+        "termination_date": "2023-09-28T04:25:03.044Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "created_at": "2023-09-28T09:30:48.487Z",
+        "updated_at": "2023-09-27T21:10:45.440Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "512a6b75-87e4-4649-8ffb-a3b8285838dc",
+        "start_date": "2023-09-27T19:40:13.867Z",
+        "end_date": "2023-09-28T09:29:41.702Z",
+        "days_taken": 71296,
+        "vacation_type": "Paid Leave",
+        "created_at": "2023-09-28T12:04:58.941Z",
+        "updated_at": "2023-09-27T19:04:25.925Z",
+        "employee_id": "62a4c75c-8e9f-49ab-9c5a-b53a19f66906"
+      },
+      {
+        "id": "e57af3ec-7a63-447c-8cd2-cfe1ad741f79",
+        "start_date": "2023-09-28T08:17:05.612Z",
+        "end_date": "2023-09-28T08:34:44.286Z",
+        "days_taken": 91681,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-28T01:18:52.179Z",
+        "updated_at": "2023-09-27T22:12:02.453Z",
+        "employee_id": "50be9989-30a2-43b1-aecc-2dd4e2fecea1"
+      },
+      {
+        "id": "46896d87-5608-4030-b78d-d911b36efb4b",
+        "start_date": "2023-09-28T02:43:20.723Z",
+        "end_date": "2023-09-28T10:25:39.640Z",
+        "days_taken": 77552,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-28T11:58:26.273Z",
+        "updated_at": "2023-09-28T10:08:37.035Z",
+        "employee_id": "50be9989-30a2-43b1-aecc-2dd4e2fecea1"
+      },
+      {
+        "id": "bba51e12-5384-4dbe-99e1-9860ab95bf99",
+        "start_date": "2023-09-27T17:13:21.274Z",
+        "end_date": "2023-09-27T21:14:53.917Z",
+        "days_taken": 86046,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-28T04:47:38.114Z",
+        "updated_at": "2023-09-28T08:02:46.456Z",
+        "employee_id": "412c6796-8041-4cf0-9e2e-9ff8a8c5fee8"
+      },
+      {
+        "id": "d0d01dc7-fa20-4086-b234-24aaea52ffb7",
+        "start_date": "2023-09-27T17:49:05.031Z",
+        "end_date": "2023-09-28T11:01:45.123Z",
+        "days_taken": 52481,
+        "vacation_type": "Parental Leave",
+        "created_at": "2023-09-27T23:57:29.765Z",
+        "updated_at": "2023-09-28T00:06:38.130Z",
+        "employee_id": "09799c81-9b11-4ab6-a4d4-f5a228563383"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "b02ac4e5-64d8-49bd-90ce-9db9cc8cfd1b",
+        "pay_date": "2023-09-28T04:55:51.131Z",
+        "gross_pay": 38902,
+        "net_pay": 44033,
+        "taxes": 47264,
+        "deductions": 10383,
+        "created_at": "2023-09-28T07:03:46.880Z",
+        "updated_at": "2023-09-27T22:06:04.058Z",
+        "employee_id": "412c6796-8041-4cf0-9e2e-9ff8a8c5fee8"
+      },
+      {
+        "id": "b605b8fe-29c6-431a-8f23-241f601bc2d2",
+        "pay_date": "2023-09-28T00:23:15.240Z",
+        "gross_pay": 55844,
+        "net_pay": 28296,
+        "taxes": 26447,
+        "deductions": 74946,
+        "created_at": "2023-09-28T12:04:48.359Z",
+        "updated_at": "2023-09-28T02:30:03.824Z",
+        "employee_id": "26e4813e-d3f2-46a0-a9bf-d08977e4a97c"
+      },
+      {
+        "id": "0f7a3159-91a3-4dc8-a567-0973fba33104",
+        "pay_date": "2023-09-27T15:39:18.090Z",
+        "gross_pay": 98770,
+        "net_pay": 18296,
+        "taxes": 8754,
+        "deductions": 16393,
+        "created_at": "2023-09-28T00:24:20.062Z",
+        "updated_at": "2023-09-28T11:31:05.650Z",
+        "employee_id": "412c6796-8041-4cf0-9e2e-9ff8a8c5fee8"
+      },
+      {
+        "id": "825094c2-9af7-413d-b660-0b0c728d9cfe",
+        "pay_date": "2023-09-28T06:14:59.671Z",
+        "gross_pay": 74745,
+        "net_pay": 47593,
+        "taxes": 83280,
+        "deductions": 20948,
+        "created_at": "2023-09-28T06:44:50.981Z",
+        "updated_at": "2023-09-27T16:31:28.292Z",
+        "employee_id": "09799c81-9b11-4ab6-a4d4-f5a228563383"
+      },
+      {
+        "id": "9922b691-bc53-442c-9356-f64206db6f90",
+        "pay_date": "2023-09-28T05:45:18.280Z",
+        "gross_pay": 44510,
+        "net_pay": 67495,
+        "taxes": 43957,
+        "deductions": 84932,
+        "created_at": "2023-09-28T04:33:54.876Z",
+        "updated_at": "2023-09-28T00:34:04.214Z",
+        "employee_id": "50be9989-30a2-43b1-aecc-2dd4e2fecea1"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "48c4f129-8955-415e-ac60-e5a7ae7c3417",
+        "business_name": "ABC Bakery",
+        "business_type": "Bakery",
+        "business_address": "111 Baker Street",
+        "business_city": "San Francisco",
+        "business_state": "CA",
+        "business_zip_code": "94101",
+        "created_at": "2023-09-28T09:21:30.366Z",
+        "updated_at": "2023-09-28T03:51:52.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75a314dc-0a16-4bef-abcb-038ea5fac95a",
+        "business_name": "XYZ Fitness",
+        "business_type": "Fitness Center",
+        "business_address": "222 Gym Avenue",
+        "business_city": "Seattle",
+        "business_state": "WA",
+        "business_zip_code": "98101",
+        "created_at": "2023-09-28T04:21:23.455Z",
+        "updated_at": "2023-09-28T14:01:47.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfbec8c9-0d57-42cc-b272-f6cc74152dd4",
+        "business_name": "123 Auto Repair",
+        "business_type": "Auto Repair Shop",
+        "business_address": "333 Auto Lane",
+        "business_city": "Denver",
+        "business_state": "CO",
+        "business_zip_code": "80202",
+        "created_at": "2023-09-28T07:56:51.960Z",
+        "updated_at": "2023-09-28T07:42:59.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a23aefaa-efcc-445c-a08a-18e4d4e4cf86",
+        "business_name": "Acme Restaurant",
+        "business_type": "Restaurant",
+        "business_address": "444 Food Road",
+        "business_city": "Miami",
+        "business_state": "FL",
+        "business_zip_code": "33101",
+        "created_at": "2023-09-28T13:16:48.671Z",
+        "updated_at": "2023-09-28T04:06:46.878Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b602f35c-a89e-4d7f-aab0-c383293de141",
+        "business_name": "Global Consulting",
+        "business_type": "Consulting Firm",
+        "business_address": "555 Consultancy Drive",
+        "business_city": "Boston",
+        "business_state": "MA",
+        "business_zip_code": "02101",
+        "created_at": "2023-09-28T00:31:21.732Z",
+        "updated_at": "2023-09-27T18:37:25.158Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3341d8e5-dc65-490a-b2c3-5f71928f84c3",
+        "email": "Bianka_Thompson37@roq.tech",
+        "firstName": "Malcolm",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45e1a123-4674-41c3-826e-2491c852af35",
+        "email": "Birdie.Hartmann@roq.tech",
+        "firstName": "Mitchell",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54387273",
+        "tenantId": null
+      },
+      {
+        "reference": "d29d42f5-daf0-4c86-ad03-8ce83dec9099",
+        "email": "Dessie92@roq.tech",
+        "firstName": "Lambert",
+        "lastName": "Lockman-Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91352707",
+        "tenantId": null
+      },
+      {
+        "reference": "c0325505-12d6-4755-8819-21b871f55473",
+        "email": "Lewis.Jacobs@roq.tech",
+        "firstName": "Blake",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31402281",
+        "tenantId": null
+      },
+      {
+        "reference": "f4cf6e09-8c13-44ab-855e-ff01137711bb",
+        "email": "Naomi43@roq.tech",
+        "firstName": "Rodger",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/235.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "a0c6fd54-03c5-4083-b5c6-850b095572b5",
+        "employee_number": 40733,
+        "hire_date": "2023-09-27T19:13:23.107Z",
+        "termination_date": "2023-09-27T20:41:13.826Z",
+        "job_title": "Manager",
+        "department": "Finance",
+        "created_at": "2023-09-27T16:11:05.897Z",
+        "updated_at": "2023-09-28T02:09:43.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e4568fa-64a6-4321-b552-7928e3e9ef24",
+        "employee_number": 94652,
+        "hire_date": "2023-09-28T06:44:51.924Z",
+        "termination_date": "2023-09-28T13:32:10.766Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "created_at": "2023-09-27T19:20:11.120Z",
+        "updated_at": "2023-09-27T23:43:41.094Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "410b6bd3-ab18-4daa-897a-898044fd4577",
+        "employee_number": 9232,
+        "hire_date": "2023-09-28T12:07:24.227Z",
+        "termination_date": "2023-09-27T20:37:12.237Z",
+        "job_title": "Sales Associate",
+        "department": "Operations",
+        "created_at": "2023-09-28T09:28:51.706Z",
+        "updated_at": "2023-09-27T17:07:56.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb05dfd9-09cb-4134-8ab4-e92fb4711c91",
+        "employee_number": 98519,
+        "hire_date": "2023-09-28T08:21:03.667Z",
+        "termination_date": "2023-09-27T21:53:41.750Z",
+        "job_title": "Accountant",
+        "department": "IT",
+        "created_at": "2023-09-28T06:35:07.856Z",
+        "updated_at": "2023-09-28T03:14:08.318Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5535d38e-713d-436c-9e12-d7bccfb81af5",
+        "employee_number": 81617,
+        "hire_date": "2023-09-28T08:58:44.497Z",
+        "termination_date": "2023-09-28T14:33:07.065Z",
+        "job_title": "Human Resources",
+        "department": "HR",
+        "created_at": "2023-09-28T05:03:09.623Z",
+        "updated_at": "2023-09-28T13:25:52.449Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "3595dfe7-39b9-419b-b5e6-acba85dac988",
+        "start_date": "2023-09-28T02:07:19.856Z",
+        "end_date": "2023-09-28T00:24:27.608Z",
+        "days_taken": 1154,
+        "vacation_type": "Paid Leave",
+        "created_at": "2023-09-28T09:10:00.535Z",
+        "updated_at": "2023-09-27T17:43:37.597Z",
+        "employee_id": "8e4568fa-64a6-4321-b552-7928e3e9ef24"
+      },
+      {
+        "id": "5272d9f1-a20d-45ab-afb6-b7011afbcfbc",
+        "start_date": "2023-09-28T01:41:01.863Z",
+        "end_date": "2023-09-27T18:01:23.077Z",
+        "days_taken": 50880,
+        "vacation_type": "Sick Leave",
+        "created_at": "2023-09-28T14:00:08.684Z",
+        "updated_at": "2023-09-28T14:54:32.397Z",
+        "employee_id": "8e4568fa-64a6-4321-b552-7928e3e9ef24"
+      },
+      {
+        "id": "de32bb64-f147-47d4-92d2-5ab972800d1a",
+        "start_date": "2023-09-28T11:51:40.920Z",
+        "end_date": "2023-09-28T08:43:56.651Z",
+        "days_taken": 77240,
+        "vacation_type": "Maternity Leave",
+        "created_at": "2023-09-28T07:42:51.422Z",
+        "updated_at": "2023-09-28T06:29:00.494Z",
+        "employee_id": "8e4568fa-64a6-4321-b552-7928e3e9ef24"
+      },
+      {
+        "id": "acab387d-714f-473b-af41-907d4257b9f8",
+        "start_date": "2023-09-28T03:20:50.421Z",
+        "end_date": "2023-09-28T10:24:30.481Z",
+        "days_taken": 28473,
+        "vacation_type": "Study Leave",
+        "created_at": "2023-09-28T06:41:45.041Z",
+        "updated_at": "2023-09-27T17:27:49.422Z",
+        "employee_id": "5535d38e-713d-436c-9e12-d7bccfb81af5"
+      },
+      {
+        "id": "6bd4d3c9-2860-49b4-952a-bbb0eb770034",
+        "start_date": "2023-09-27T15:57:15.550Z",
+        "end_date": "2023-09-28T12:21:38.706Z",
+        "days_taken": 40748,
+        "vacation_type": "Bereavement Leave",
+        "created_at": "2023-09-28T05:45:50.749Z",
+        "updated_at": "2023-09-28T09:04:43.024Z",
+        "employee_id": "cb05dfd9-09cb-4134-8ab4-e92fb4711c91"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "b04ec046-7de9-451d-93b2-26eb54913f47",
+        "pay_date": "2023-09-27T15:24:39.258Z",
+        "gross_pay": 12160,
+        "net_pay": 10316,
+        "taxes": 66989,
+        "deductions": 11875,
+        "created_at": "2023-09-27T15:36:16.354Z",
+        "updated_at": "2023-09-27T19:19:34.242Z",
+        "employee_id": "cb05dfd9-09cb-4134-8ab4-e92fb4711c91"
+      },
+      {
+        "id": "67757024-b347-4674-92a2-41258c4c7418",
+        "pay_date": "2023-09-27T22:38:14.421Z",
+        "gross_pay": 75998,
+        "net_pay": 90786,
+        "taxes": 11241,
+        "deductions": 20133,
+        "created_at": "2023-09-28T01:06:22.637Z",
+        "updated_at": "2023-09-28T05:21:13.792Z",
+        "employee_id": "8e4568fa-64a6-4321-b552-7928e3e9ef24"
+      },
+      {
+        "id": "323c5e7b-5889-4ecc-932f-a9477b01c14d",
+        "pay_date": "2023-09-28T12:17:14.709Z",
+        "gross_pay": 26137,
+        "net_pay": 42665,
+        "taxes": 88462,
+        "deductions": 59676,
+        "created_at": "2023-09-27T19:08:00.413Z",
+        "updated_at": "2023-09-28T14:45:12.301Z",
+        "employee_id": "cb05dfd9-09cb-4134-8ab4-e92fb4711c91"
+      },
+      {
+        "id": "58f36304-3028-4de2-af1a-fc690183fa2d",
+        "pay_date": "2023-09-28T01:38:03.491Z",
+        "gross_pay": 97406,
+        "net_pay": 45838,
+        "taxes": 48447,
+        "deductions": 76463,
+        "created_at": "2023-09-28T00:39:04.755Z",
+        "updated_at": "2023-09-28T08:13:59.681Z",
+        "employee_id": "a0c6fd54-03c5-4083-b5c6-850b095572b5"
+      },
+      {
+        "id": "5b10aae8-b717-4b55-8115-2124a6bc529e",
+        "pay_date": "2023-09-27T17:14:00.745Z",
+        "gross_pay": 63527,
+        "net_pay": 97388,
+        "taxes": 77428,
+        "deductions": 18405,
+        "created_at": "2023-09-28T04:01:13.974Z",
+        "updated_at": "2023-09-28T03:54:45.327Z",
+        "employee_id": "410b6bd3-ab18-4daa-897a-898044fd4577"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "f70eede7-0b33-4422-b141-94d3b29e4eb4",
+        "business_name": "John's Bakery",
+        "business_type": "Food & Beverage",
+        "business_address": "789 Main Street",
+        "business_city": "New York",
+        "business_state": "NY",
+        "business_zip_code": "10001",
+        "created_at": "2023-09-27T18:09:16.726Z",
+        "updated_at": "2023-09-27T21:45:00.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07239c05-4971-40bf-8f27-8039808c4807",
+        "business_name": "Jane's Boutique",
+        "business_type": "Fashion",
+        "business_address": "456 Elm Avenue",
+        "business_city": "Los Angeles",
+        "business_state": "CA",
+        "business_zip_code": "90001",
+        "created_at": "2023-09-28T05:49:25.901Z",
+        "updated_at": "2023-09-28T04:02:20.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8728c196-21d9-4dfb-8f11-70de7901e376",
+        "business_name": "Michael's Auto Repair",
+        "business_type": "Automotive",
+        "business_address": "123 Oak Lane",
+        "business_city": "Chicago",
+        "business_state": "IL",
+        "business_zip_code": "60601",
+        "created_at": "2023-09-27T17:30:31.154Z",
+        "updated_at": "2023-09-28T01:33:48.041Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a388cd2-0f75-42f1-b4bb-23224ff9caa3",
+        "business_name": "Sarah's Salon",
+        "business_type": "Beauty",
+        "business_address": "321 Pine Road",
+        "business_city": "Houston",
+        "business_state": "TX",
+        "business_zip_code": "77001",
+        "created_at": "2023-09-28T12:21:50.476Z",
+        "updated_at": "2023-09-28T03:32:01.731Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3fce9d9-9d18-4bf9-a050-bf9d118591ce",
+        "business_name": "Robert's Law Firm",
+        "business_type": "Legal",
+        "business_address": "654 Maple Drive",
+        "business_city": "Miami",
+        "business_state": "FL",
+        "business_zip_code": "33101",
+        "created_at": "2023-09-27T20:35:05.166Z",
+        "updated_at": "2023-09-28T06:09:54.833Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a459dd0-bfa1-475a-b42d-d1e09da542bd",
+        "email": "Isabelle_Volkman17@roq.tech",
+        "firstName": "Marian",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39806030",
+        "tenantId": null
+      },
+      {
+        "reference": "09f49e69-c734-4368-9e2d-30e4fed5765b",
+        "email": "Keshaun71@roq.tech",
+        "firstName": "Merritt",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/653.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bdfc1145-f72e-4329-8aea-1a1fcc7358d4",
+        "email": "Sandy_Lemke@roq.tech",
+        "firstName": "Elias",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77251794",
+        "tenantId": null
+      },
+      {
+        "reference": "257f74d1-e979-464a-9d63-bbee94e53eb3",
+        "email": "Brando.OKon57@roq.tech",
+        "firstName": "Kiel",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/321.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2aab2f74-b06d-4dfa-8048-20207dc806ff",
+        "email": "Andre49@roq.tech",
+        "firstName": "Pierre",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14646797",
+        "tenantId": null
+      }
+    ]
+  }
+]
